@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Four Card Feature Section Master
 
-## Getting Started
+This project is a responsive web interface designed with CSS Grid to organize cards in a dynamic and adaptable grid layout. It implements a flexible structure that adjusts card placement across different grid areas, optimizing the user experience on both mobile and desktop devices.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Installation Steps](#installation-steps)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### The challenge
+The challenge involved creating a responsive web layout using CSS Grid to display cards in a 3x3 grid. The cards needed to adapt to various screen sizes, with specific positioning and alignment for mobile and desktop views. The goal was to ensure that the layout remained visually appealing and functional across devices, with the cards occupying designated areas and adjusting their placement accordingly.
 
-## Learn More
+### Screenshot
 
-To learn more about Next.js, take a look at the following resources:
+- Phone Device
+![](./mobile.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Desktop Device      
+![](./desktop.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+_If the images are not visible, please check the file path or ensure the screenshots exists._
 
-## Deploy on Vercel
+### Links
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Live Site](https://four-card-feature-section-master-pi-nine.vercel.app/) - View the live version.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## My process
+
+### Built with
+
+- Mobile-first workflow
+- [Sass](https://nextjs.org/docs/app/building-your-application/styling/sass) - Sass for styling
+- [React](https://reactjs.org/) - TS library
+- [Next.js](https://nextjs.org/) - React framework
+
+### Installation Steps
+
+  #### 1. Clone the repository (if you haven't already)
+    git@github.com:nmelissarp/four-card-feature-section-master.git
+  #### 2. Navigate to the project folder
+    cd four-card-feature-section-master
+  #### 3. Install dependencies
+    npm install
+  #### 4. Run the development server
+    npm run dev
+  #### 5. Verify the application Open your browser and navigate to http://localhost:3000 to ensure everything is working as expected.
+
+### Useful resources
+
+[CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/) - CSS-Tricks - Complete Guide to Grid: A comprehensive guide that explains the entire CSS Grid layout system, including how to use grid-column and grid-row to organize content into rows and columns.
+[An Interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/) - Josh W. Comeau - Interactive Guide to CSS Grid: An interactive, visual guide that helps users understand CSS Grid by demonstrating how grid items are placed within a grid container, with clear examples
+[CSS grid layout](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids) - MDN Web Docs - CSS Grid Layout: The official documentation from Mozilla, providing a detailed explanation of the CSS Grid system, including syntax and real-world use cases.
+
+## Author
+
+- [Melissa Ramírez](https://www.linkedin.com/in/nmelissarp/) - Developer and enthusiast of web development, always learning and experimenting with new technologies.
