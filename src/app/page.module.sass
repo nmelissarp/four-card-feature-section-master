@@ -1,0 +1,54 @@
+.main
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  min-height: 100vh
+  padding: 8rem 2.5rem 6rem
+
+.headerContainer
+  text-align: center
+  font-family: $font-family
+  color: $dark-blue
+
+  h1, h2
+    font-size: 2.4rem
+    letter-spacing: 0.17px
+  h1
+    font-weight: 200
+    margin-bottom: 1px
+  h2
+    font-weight: 600
+    margin-bottom: 1.6rem
+  
+  p
+    font-size: 1.5rem
+    font-weight: 400
+    opacity: 50%
+    letter-spacing: 0.1px
+    line-height: 25px
+    margin-bottom: 5rem
+
+.cardContainer
+  display: grid
+  gap: 2rem
+  grid-template-columns: 1fr
+  grid-template-rows: auto
+
+@media (min-width: 600px)
+  .cardContainer
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 1fr 1fr 1fr
+    align-items: center
+    justify-items: center
+
+  .headerContainer
+    width: 54rem
+    h1, h2
+      font-size: 3.6rem
+      letter-spacing: 0.25px
+    h1
+      margin-bottom: -3px
+    
+    p
+      margin-bottom: -6rem

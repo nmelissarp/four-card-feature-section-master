@@ -1,7 +1,19 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
+import path from 'path'
 
 const nextConfig: NextConfig = {
   /* config options here */
-};
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'src/sass')],
+    additionalData: `@import 'main.sass'`,
+  },
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    })
+    return config
+  },
+}
 
-export default nextConfig;
+export default nextConfig
